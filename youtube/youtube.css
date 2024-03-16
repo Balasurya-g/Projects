@@ -1,0 +1,137 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    background-color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ham {
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+}
+
+.middle{
+    display: flex;
+    flex: 1;
+    padding: 0%;
+    margin-left: 100px;
+    margin-right: 50PX;
+}
+.middle input{
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 2px;
+    z-index: 10;
+    min-width: 100px;
+    max-width: 500px;
+}
+.middle input::placeholder{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    align-items: top;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #cccccc69;
+    z-index: 2; 
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+p{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.info{
+    margin-top: 8px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 20px;
+    column-gap: 20px;
+    row-gap: 40px;
+    z-index: -1;
+}
+nav{
+    margin-top: 50px;
+    position: fixed;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 30px;
+    row-gap: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 20px;
+    z-index: 1;
+    border-right: 1px solid #cccccc69;
+}
+.youtube{
+    display: flex;
+}
+nav p{
+    font-size: 10px;
+}
+.container img{
+    border-radius: 5px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.end{
+    display: flex;
+   margin-right: 40px;
+   width: 200px;
+   min-width: 200PX;
+   justify-content: space-between;
+   align-items: center;
+}
+.container,.thumbnail{
+    position: relative;
+}
+@media (max-width: 1300px)
+{
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width:980px)
+{
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 650px)
+{
+    main{
+        grid-template-columns: 1fr;
+    }
+}
+.time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 2px;
+}
