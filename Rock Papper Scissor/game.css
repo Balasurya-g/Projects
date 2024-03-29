@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+.layout{
+    margin-top: 50px;
+    position: relative;
+}
+.input{
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100px;
+    background-color: #f2f2f2;
+    color: black;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    padding: 40px;
+    border: none;
+    transition: all ease 0.25s;
+    cursor: pointer;
+}
+.input:hover{
+    background-color: black;
+    color: #f2f2f2;
+}
+.bottom{
+    position: absolute;
+    top: 250px;
+    left: 35%;
+}
+.bottom .output{
+    margin-top: 30px;
+    background-color: black;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    padding: 40px;
+    border: none;
+    transition: all ease 0.25s;
+}
+#display{
+    margin-top: 60px;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 54px;
+    color: black;
+}
+h3{
+    margin-left: 175px;
+}

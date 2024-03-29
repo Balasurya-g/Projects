@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+   <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div class="layout">
+        <h1>ROCK PAPPER SCISSOR</h1>
+        <h3>YOU</h3>
+        <div class="top">
+            <button class="input" onclick="fun('ROCK');">ROCK</button>
+            <button class="input" onclick="fun('PAPPER');">PAPPER</button>
+            <button class="input" onclick="fun('SICCOR');">SCISSOR</button>
+        </div>
+        <h3 >BOT</h3>
+        <div class="bottom">
+            <button id="output" class="output">. . .</button>    
+        </div>
+        <h1 id="display"></h1>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>
